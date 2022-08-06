@@ -12,18 +12,18 @@ public class Main {
        String str = (String) object;
         System.out.println(str);
 
-        Box<Integer>  box  = new Box<>();
-        box.setItem(1);
-        Integer item = box.getItem();
-        Box<String> box2 = new Box<>();
-        box2.setItem("aaaaaaaaaa");
-        box2.setItem("");
-        Box2 ex = new Box2();
-        ex.setItem("aaaa");
-       Integer t = (Integer) ex.getItem();
-       Integer res = 2+t;
-       ParametrizedInterface<String> strRet = new StringReturner();
-       strRet.getValue();
+        //Box<Integer> box = new Box<>();
+        //box.setItem(1);
+        //Integer item = box.getItem();
+        //Box<String> box2 = new Box<>();
+       // box2.setItem("aaaaaaaaaa");
+       // box2.setItem("");
+      //  Box2 ex = new Box2();
+      //  ex.setItem("aaaa");
+      // Integer t = (Integer) ex.getItem();
+      // Integer res = 2+t;
+      // ParametrizedInterface<String> strRet = new StringReturner();
+      // strRet.getValue();
        /*można przypisać parentowi dowolny podtyp*/
 
        /*Lista integerów to nie jest podtyp Listy Numberów*/
